@@ -1,0 +1,47 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.1rem;
+    line-height: 150%;
+    color: #000000;
+    background: #f3efea;
+}
+
+.wrapper {
+    min-height: 100%;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1160px;
+    margin: 0 auto;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.title {
+    margin-bottom: 6.2rem;
+    font-family: 'Tenor Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.7rem;
+    line-height: 150%;
+    color: #57463A;
+}
+.gallery {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    row-gap: 1.5rem;
+    column-gap: 0.5rem;
+}
+.img {
+    height: 18.75rem;
+    width: 16.25rem;
+    object-fit: fill;
+}
